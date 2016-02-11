@@ -1,0 +1,48 @@
+#ttt {
+  width: 500px;
+  margin: 0 auto;
+  background: none;
+}
+
+li {
+  float: left;
+}
+
+li:hover {
+  background-color: silver;
+}
+
+.square {
+  outline: 1px solid gray;
+  width: 150px;
+  height: 150px;
+  float: left;
+  transition: outline 0.5s, background-color 0.5s;
+  cursor: crosshair;
+  background-color: grey;
+  list-style: none;
+  border: 2px solid white;
+}
+.clicked {
+  outline: 1px solid gray;
+  position: relative;
+  font-size: 200px;
+  line-height: 0.55;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  float: left;
+  transition: outline 0.5s, background-color 0.5s;
+  cursor: crosshair;
+  list-style: none;
+  border: 2px solid white;
+}
+
+ul {
+  margin: 0;
+  width: 462px;
+  padding: 0;
+  display: block;
+}
+
+/* .square:hover { outline: 1px solid red; } */
